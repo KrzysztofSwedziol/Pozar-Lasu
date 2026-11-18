@@ -1,0 +1,1267 @@
+-- Running vcpkg install
+Fetching registry information from https://github.com/microsoft/vcpkg (HEAD)...
+Detecting compiler hash for triplet arm64-linux...
+Compiler found: /usr/bin/c++
+The following packages will be built and installed:
+    bfgroup-lyra:arm64-linux@1.7.0 -- git+https://github.com/microsoft/vcpkg@cfff8126eaa801117b26c9b8046cc8c04d799fa2
+  * boost-algorithm:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@de42a042a1a4f4d7a293ef7fcfaa802493ef72f0
+  * boost-align:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@4550a4c5a0044b02be49c57237ce386c795a1e6f
+  * boost-array:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@99b577fa8df790296f132dd518aa92ba5b7efcaa
+  * boost-assert:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@f19da0b4f88d3d556e5c68226ad29d19fb5512d5
+  * boost-atomic:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@cd339bff445063affa1973b10ce0d05e9e0bde25
+  * boost-bind:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@64a915580ea3acee2702b8b4fd06d8c41b34166b
+  * boost-chrono:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@ebb7be768b973a0a6a3e116c3231c429356d5f8e
+  * boost-cmake:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@cf623e2460b0e669701582bb4b4f7c2f58edab9c
+  * boost-concept-check:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@e1758b2a2a779dd3525e4b67b7311211c51c3235
+  * boost-config:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@9fc9a7a35564377c7524631b5746bd77b1ff6bb3
+  * boost-container:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@da85edb36ed2090288b063745744026dd23db156
+  * boost-container-hash:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@d6ceb8922b847316efbf724cb7df7c28e0e8282b
+  * boost-conversion:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@f44161fb13a818d55243094a9ce3270b737cf76e
+  * boost-core:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@a4ee1de182f85e01295c57b9acb6f9584be17388
+  * boost-date-time:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@67065b98e42851899e5dff400750f5d79d2baf1c
+  * boost-describe:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@b45ba8548669842c649c4e9c21de95be93ef3dda
+  * boost-detail:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@ebd543154e618ddffe7b7aa153f0e14ef6c9055d
+  * boost-endian:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@48cdf6c7ccea38184680e59e5d78dd90c343337e
+  * boost-exception:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@569f0c0c5ef6a4a42c50f49b0eec95aef0cc6a37
+    boost-format:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@7f4cc9fcdd80eab65fc4812efd37658a1942b37e
+  * boost-function:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@2048498b24410da70663df6357839feb66164ab9
+  * boost-function-types:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@3802e7d77ccbf05b5853737c1768ef0fd3f44c29
+  * boost-functional:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@a8150d40e2b3d92e2609e9e3cc165cbba86caadb
+  * boost-fusion:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@49b5346b0c3471caf8dcb19c78fb982923510393
+  * boost-headers:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@45ffc654d045acf0356605f006f3672522afa725
+  * boost-integer:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@84c39b9230d10819aca1b0d2fc8a79a417cde38e
+  * boost-intrusive:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@fffff3ed54058bb3452129fb8055564e0b672559
+  * boost-io:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@c79681101f2a3a466023edd8ff12068e8d11323d
+    boost-iterator:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@3af9bc41d5ca406591540ef93fdfd87321430877
+  * boost-lexical-cast:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@83fee140b329a32fcf0a28dcea3966c15a9afc7b
+  * boost-move:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@d20e9ac3f296584f51419ff55d77d02e84434357
+  * boost-mp11:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@48a6d4f6c7890f050ab4d0253d11ecb71c5193fe
+  * boost-mpl:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@7c12686c52a82dc407796d9239791d4e74f8ebed
+  * boost-numeric-conversion:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@fb3a9d99aef2786186883c9b74e5c6dfbcc30ff9
+  * boost-optional:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@37d48513a5c0e1dd869909555ca4d58ad34f94da
+  * boost-phoenix:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@c11fef02a7518852a8b0b7add96fee4f7c421be7
+  * boost-pool:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@9e1ba45862580a2e0d9fdd955ebbde3bdbccaf90
+  * boost-predef:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@41db6ec4273c0e91a5720b7b0297855d0d482d47
+  * boost-preprocessor:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@69e38717186a35e6abfa991e9379da8527d655bf
+  * boost-proto:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@8837c7efd5677de7bf2400816cc0e1687fe4cd8c
+    boost-range:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@953221c04869e3032889d95eef9b209281f8c04a
+  * boost-ratio:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@e04da230bfd47f04f4078591096cab18c4984add
+  * boost-rational:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@524b14719856f3c2eea524822826b6e5e85150f9
+  * boost-regex:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@5b2b8c76f23f47366505fc7edb183c9596860d8d
+  * boost-serialization:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@be58890c226ed96b714eb92eda245a0821a49027
+  * boost-smart-ptr:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@3a3824f0a22c01fc18d1b2b6f73f2ee6a21385e8
+  * boost-spirit:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@1add6e97c82a5736d2e66be4a298546064a354e8
+  * boost-static-assert:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@fcb71122d53bd76520ca9fd266bd11efc772f1c6
+  * boost-system:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@ffa5126f9b2f42c9cc1fd65822916272ba9330ae
+  * boost-thread:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@883057c59674c907b8c1165ed3d1c88fd8f76136
+  * boost-throw-exception:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@57ca915d2601ca7c7fd63b20fa75ecd5e0cfe445
+  * boost-tokenizer:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@a8e68feb1372fbabcddfab9436a2aa99c2e6fcff
+  * boost-tuple:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@7100b38f1042d44e77b6eaf06cf946fd3e6fc86f
+  * boost-type-index:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@a549e6af876dde241dc2eddf884f1b0af0519eac
+  * boost-type-traits:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@1820e59c3f5a4f12eee18b4acd98e1f4f8078b2c
+  * boost-typeof:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@7049781217624a5d23e8a7fdbb3b9b762c575110
+  * boost-uninstall:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@afdfdd75ca8c87e3eded36c7177d208f853bdba6
+  * boost-unordered:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@1d9b670251ed24b4bbca619ba8d53d94abef6adf
+  * boost-utility:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@0ee9ffd5bdcd704be2187d1fdbdbb66bc23bd1f2
+  * boost-uuid:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@bb57363929104844e406e567595466a1267b2868
+  * boost-variant:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@fb25d533713136047882278550fd90dd561968e6
+  * boost-variant2:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@66abf90331991c40b311f1141f6aef414e619e9b
+  * boost-winapi:arm64-linux@1.90.0#1 -- git+https://github.com/microsoft/vcpkg@639211f204a27ab30817b6655efaf3e52af2a6cc
+    catch2:arm64-linux@3.14.0 -- git+https://github.com/microsoft/vcpkg@ca0981c00662c1c56cb85f99200177377ebdf2c5
+    fmt:arm64-linux@12.1.0 -- git+https://github.com/microsoft/vcpkg@936231a2c765082457d348a8781ea9d3610eb331
+    galois:arm64-linux@6.0 -- /code/./vcpkg/custom-overlay/galois
+  * vcpkg-boost:arm64-linux@2025-03-29 -- git+https://github.com/microsoft/vcpkg@858b0333b773b5650c3f19ef271e3205542d7ceb
+  * vcpkg-cmake:arm64-linux@2024-04-23 -- git+https://github.com/microsoft/vcpkg@e74aa1e8f93278a8e71372f1fa08c3df420eb840
+  * vcpkg-cmake-config:arm64-linux@2024-05-23 -- git+https://github.com/microsoft/vcpkg@97a63e4bc1a17422ffe4eff71da53b4b561a7841
+Additional packages (*) will be modified to complete this operation.
+Restored 0 package(s) from /root/.cache/vcpkg/archives in 31.8 us. Use --debug to see more details.
+Installing 1/70 vcpkg-cmake-config:arm64-linux@2024-05-23...
+vcpkg-cmake-config:arm64-linux@2024-05-23 package ABI: 5d38b065a78ccda013d7882d8b01e33cd44b7e673331b470851c2469b5d27758
+Building vcpkg-cmake-config:arm64-linux@2024-05-23...
+/root/.cache/vcpkg/registries/git-trees/97a63e4bc1a17422ffe4eff71da53b4b561a7841: info: installing from git registry git+https://github.com/microsoft/vcpkg@97a63e4bc1a17422ffe4eff71da53b4b561a7841
+-- Installing: /opt/vcpkg/packages/vcpkg-cmake-config_arm64-linux/share/vcpkg-cmake-config/vcpkg_cmake_config_fixup.cmake
+-- Installing: /opt/vcpkg/packages/vcpkg-cmake-config_arm64-linux/share/vcpkg-cmake-config/vcpkg-port-config.cmake
+-- Installing: /opt/vcpkg/packages/vcpkg-cmake-config_arm64-linux/share/vcpkg-cmake-config/copyright
+-- Skipping post-build validation due to VCPKG_POLICY_EMPTY_PACKAGE
+Starting submission of vcpkg-cmake-config:arm64-linux@2024-05-23 to 1 binary cache(s) in the background
+Elapsed time to handle vcpkg-cmake-config:arm64-linux: 8.2 ms
+Installing 2/70 vcpkg-cmake:arm64-linux@2024-04-23...
+vcpkg-cmake:arm64-linux@2024-04-23 package ABI: 49998f35846b810ae0a6dd83fb82bd2fa8afbf63c3e02ede98e1c312e1067725
+Building vcpkg-cmake:arm64-linux@2024-04-23...
+/root/.cache/vcpkg/registries/git-trees/e74aa1e8f93278a8e71372f1fa08c3df420eb840: info: installing from git registry git+https://github.com/microsoft/vcpkg@e74aa1e8f93278a8e71372f1fa08c3df420eb840
+-- Installing: /opt/vcpkg/packages/vcpkg-cmake_arm64-linux/share/vcpkg-cmake/vcpkg_cmake_configure.cmake
+-- Installing: /opt/vcpkg/packages/vcpkg-cmake_arm64-linux/share/vcpkg-cmake/vcpkg_cmake_build.cmake
+-- Installing: /opt/vcpkg/packages/vcpkg-cmake_arm64-linux/share/vcpkg-cmake/vcpkg_cmake_install.cmake
+-- Installing: /opt/vcpkg/packages/vcpkg-cmake_arm64-linux/share/vcpkg-cmake/vcpkg-port-config.cmake
+-- Installing: /opt/vcpkg/packages/vcpkg-cmake_arm64-linux/share/vcpkg-cmake/copyright
+-- Performing post-build validation
+Starting submission of vcpkg-cmake:arm64-linux@2024-04-23 to 1 binary cache(s) in the background
+Elapsed time to handle vcpkg-cmake:arm64-linux: 8.05 ms
+Completed submission of vcpkg-cmake-config:arm64-linux@2024-05-23 to 1 binary cache(s) in 1.27 ms
+Installing 3/70 bfgroup-lyra:arm64-linux@1.7.0...
+bfgroup-lyra:arm64-linux@1.7.0 package ABI: bc65ae80e7bda020dc9c5a0640b6225ca527b84e0393c079959b5095a2e132c6
+Building bfgroup-lyra:arm64-linux@1.7.0...
+/root/.cache/vcpkg/registries/git-trees/cfff8126eaa801117b26c9b8046cc8c04d799fa2: info: installing from git registry git+https://github.com/microsoft/vcpkg@cfff8126eaa801117b26c9b8046cc8c04d799fa2
+Downloading https://github.com/bfgroup/Lyra/archive/1.7.0.tar.gz -> bfgroup-Lyra-1.7.0.tar.gz
+Successfully downloaded bfgroup-Lyra-1.7.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/bfgroup-Lyra-1.7.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/bfgroup-lyra/src/1.7.0-509937903b.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/bfgroup-lyra_arm64-linux/share/bfgroup-lyra/copyright
+-- Installing: /opt/vcpkg/packages/bfgroup-lyra_arm64-linux/share/bfgroup-lyra/usage
+Downloading https://github.com/NixOS/patchelf/releases/download/0.19.2/patchelf-0.19.2-aarch64.tar.gz -> patchelf-0.19.2-aarch64.tar.gz
+Successfully downloaded patchelf-0.19.2-aarch64.tar.gz
+-- Performing post-build validation
+Starting submission of bfgroup-lyra:arm64-linux@1.7.0 to 1 binary cache(s) in the background
+Elapsed time to handle bfgroup-lyra:arm64-linux: 1.7 s
+Completed submission of vcpkg-cmake:arm64-linux@2024-04-23 to 1 binary cache(s) in 1.31 ms
+Installing 4/70 vcpkg-boost:arm64-linux@2025-03-29...
+vcpkg-boost:arm64-linux@2025-03-29 package ABI: 21ce6f08d3c9c5d2b656dae16dbfc00f70f552e2d9b0f5a13950a7ae06b63cf0
+Building vcpkg-boost:arm64-linux@2025-03-29...
+/root/.cache/vcpkg/registries/git-trees/858b0333b773b5650c3f19ef271e3205542d7ceb: info: installing from git registry git+https://github.com/microsoft/vcpkg@858b0333b773b5650c3f19ef271e3205542d7ceb
+-- Installing: /opt/vcpkg/packages/vcpkg-boost_arm64-linux/share/vcpkg-boost/usage.in
+-- Installing: /opt/vcpkg/packages/vcpkg-boost_arm64-linux/share/vcpkg-boost/boost-install.cmake
+-- Installing: /opt/vcpkg/packages/vcpkg-boost_arm64-linux/share/vcpkg-boost/vcpkg-port-config.cmake
+-- Installing: /opt/vcpkg/packages/vcpkg-boost_arm64-linux/share/vcpkg-boost/copyright
+-- Performing post-build validation
+Starting submission of vcpkg-boost:arm64-linux@2025-03-29 to 1 binary cache(s) in the background
+Elapsed time to handle vcpkg-boost:arm64-linux: 11.8 ms
+Completed submission of bfgroup-lyra:arm64-linux@1.7.0 to 1 binary cache(s) in 5.42 ms
+Installing 5/70 boost-uninstall:arm64-linux@1.90.0#1...
+boost-uninstall:arm64-linux@1.90.0#1 package ABI: 0ad59f9e9050674c3398ee75de67ec8b8537d11a637dad7e47361d9680aa64ef
+Building boost-uninstall:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/afdfdd75ca8c87e3eded36c7177d208f853bdba6: info: installing from git registry git+https://github.com/microsoft/vcpkg@afdfdd75ca8c87e3eded36c7177d208f853bdba6
+-- 
+Please use the following command when you need to remove all boost ports/components:
+    "./vcpkg remove boost-uninstall:arm64-linux --recurse"
+
+-- Skipping post-build validation due to VCPKG_POLICY_EMPTY_PACKAGE
+Starting submission of boost-uninstall:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-uninstall:arm64-linux: 9.09 ms
+Completed submission of vcpkg-boost:arm64-linux@2025-03-29 to 1 binary cache(s) in 1.42 ms
+Installing 6/70 boost-cmake:arm64-linux@1.90.0#1...
+boost-cmake:arm64-linux@1.90.0#1 package ABI: 192f8eb45e3aef5440faa4ca2bcd4a5ac491583ed8fa5744ceaab8194587182d
+Building boost-cmake:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/cf623e2460b0e669701582bb4b4f7c2f58edab9c: info: installing from git registry git+https://github.com/microsoft/vcpkg@cf623e2460b0e669701582bb4b4f7c2f58edab9c
+Downloading https://github.com/boostorg/cmake/archive/boost-1.90.0.tar.gz -> boostorg-cmake-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-cmake-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-cmake-boost-1.90.0.tar.gz
+-- Applying patch 0001-vcpkg-build.patch
+-- Applying patch 0002-remove-prefix-and-suffix.patch
+-- Using source at /opt/vcpkg/buildtrees/boost-cmake/src/ost-1.90.0-7084b3f473.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-dbg
+-- Building arm64-linux-rel
+-- Up-to-date: /opt/vcpkg/packages/boost-cmake_arm64-linux/share/boost/cmake-build
+-- Installing: /opt/vcpkg/packages/boost-cmake_arm64-linux/share/boost/cmake-build/BoostInstall.cmake
+-- Installing: /opt/vcpkg/packages/boost-cmake_arm64-linux/share/boost/cmake-build/BoostRoot.cmake
+-- Installing: /opt/vcpkg/packages/boost-cmake_arm64-linux/share/boost/cmake-build/BoostTestJamfile.cmake
+-- Installing: /opt/vcpkg/packages/boost-cmake_arm64-linux/share/boost/cmake-build/BoostTest.cmake
+-- Installing: /opt/vcpkg/packages/boost-cmake_arm64-linux/share/boost/cmake-build/BoostFetch.cmake
+-- Installing: /opt/vcpkg/packages/boost-cmake_arm64-linux/share/boost/cmake-build/BoostMessage.cmake
+-- Installing: /opt/vcpkg/packages/boost-cmake_arm64-linux/share/boost-cmake/vcpkg-port-config.cmake
+-- Installing: /opt/vcpkg/packages/boost-cmake_arm64-linux/share/boost-cmake/usage
+Downloading https://raw.githubusercontent.com/boostorg/boost/refs/tags/boost-1.90.0/LICENSE_1_0.txt -> boost-1.90.0-LICENSE_1_0.txt
+Successfully downloaded boost-1.90.0-LICENSE_1_0.txt
+-- Installing: /opt/vcpkg/packages/boost-cmake_arm64-linux/share/boost-cmake/copyright
+-- Performing post-build validation
+Starting submission of boost-cmake:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-cmake:arm64-linux: 946 ms
+Completed submission of boost-uninstall:arm64-linux@1.90.0#1 to 1 binary cache(s) in 990 us
+Installing 7/70 boost-headers:arm64-linux@1.90.0#1...
+boost-headers:arm64-linux@1.90.0#1 package ABI: 41f9cd4e45ff752309dfc762b3df9d8cd7afec20a0be0705020d721a2be2b288
+Building boost-headers:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/45ffc654d045acf0356605f006f3672522afa725: info: installing from git registry git+https://github.com/microsoft/vcpkg@45ffc654d045acf0356605f006f3672522afa725
+Downloading https://github.com/boostorg/headers/archive/boost-1.90.0.tar.gz -> boostorg-headers-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-headers-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-headers-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-headers/src/ost-1.90.0-cba82c0a22.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-headers_arm64-linux/share/boost-headers/copyright
+-- Performing post-build validation
+Starting submission of boost-headers:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-headers:arm64-linux: 718 ms
+Completed submission of boost-cmake:arm64-linux@1.90.0#1 to 1 binary cache(s) in 3.77 ms
+Installing 8/70 boost-config:arm64-linux@1.90.0#1...
+boost-config:arm64-linux@1.90.0#1 package ABI: adeb3678d3d8bad19e49ac0591dffd422409c7c6affed10d932bceb51e21eacf
+Building boost-config:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/9fc9a7a35564377c7524631b5746bd77b1ff6bb3: info: installing from git registry git+https://github.com/microsoft/vcpkg@9fc9a7a35564377c7524631b5746bd77b1ff6bb3
+Downloading https://github.com/boostorg/config/archive/boost-1.90.0.tar.gz -> boostorg-config-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-config-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-config-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-config/src/ost-1.90.0-12347e67c4.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-config_arm64-linux/share/boost-config/copyright
+-- Performing post-build validation
+Starting submission of boost-config:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-config:arm64-linux: 869 ms
+Completed submission of boost-headers:arm64-linux@1.90.0#1 to 1 binary cache(s) in 1.2 ms
+Installing 9/70 boost-static-assert:arm64-linux@1.90.0#1...
+boost-static-assert:arm64-linux@1.90.0#1 package ABI: 9fcd01fe785e18c76360716c5f61547e1838a78dc32f8cedf4dc96137f085128
+Building boost-static-assert:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/fcb71122d53bd76520ca9fd266bd11efc772f1c6: info: installing from git registry git+https://github.com/microsoft/vcpkg@fcb71122d53bd76520ca9fd266bd11efc772f1c6
+Downloading https://github.com/boostorg/static_assert/archive/boost-1.90.0.tar.gz -> boostorg-static_assert-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-static_assert-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-static_assert-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-static-assert/src/ost-1.90.0-100358d51d.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-static-assert_arm64-linux/share/boost-static-assert/copyright
+-- Performing post-build validation
+Starting submission of boost-static-assert:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-static-assert:arm64-linux: 493 ms
+Completed submission of boost-config:arm64-linux@1.90.0#1 to 1 binary cache(s) in 14.4 ms
+Installing 10/70 boost-type-traits:arm64-linux@1.90.0#1...
+boost-type-traits:arm64-linux@1.90.0#1 package ABI: dc8529c20cae4c52094e7c6ec7a55004121e64d4287e9593120d998fb7a41ce7
+Building boost-type-traits:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/1820e59c3f5a4f12eee18b4acd98e1f4f8078b2c: info: installing from git registry git+https://github.com/microsoft/vcpkg@1820e59c3f5a4f12eee18b4acd98e1f4f8078b2c
+Downloading https://github.com/boostorg/type_traits/archive/boost-1.90.0.tar.gz -> boostorg-type_traits-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-type_traits-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-type_traits-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-type-traits/src/ost-1.90.0-7486f52674.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-type-traits_arm64-linux/share/boost-type-traits/copyright
+-- Performing post-build validation
+Starting submission of boost-type-traits:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-type-traits:arm64-linux: 1.6 s
+Completed submission of boost-static-assert:arm64-linux@1.90.0#1 to 1 binary cache(s) in 1.23 ms
+Installing 11/70 boost-assert:arm64-linux@1.90.0#1...
+boost-assert:arm64-linux@1.90.0#1 package ABI: f9677dfa2e755c071a88ae50485834cf76def9d098734cfb5dfc20997f0de8a4
+Building boost-assert:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/f19da0b4f88d3d556e5c68226ad29d19fb5512d5: info: installing from git registry git+https://github.com/microsoft/vcpkg@f19da0b4f88d3d556e5c68226ad29d19fb5512d5
+Downloading https://github.com/boostorg/assert/archive/boost-1.90.0.tar.gz -> boostorg-assert-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-assert-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-assert-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-assert/src/ost-1.90.0-48c99ab941.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-assert_arm64-linux/share/boost-assert/copyright
+-- Performing post-build validation
+Starting submission of boost-assert:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-assert:arm64-linux: 1 s
+Completed submission of boost-type-traits:arm64-linux@1.90.0#1 to 1 binary cache(s) in 13 ms
+Installing 12/70 boost-throw-exception:arm64-linux@1.90.0#1...
+boost-throw-exception:arm64-linux@1.90.0#1 package ABI: 45d607739dd009e278601382e87b7ba88e87374cf5f2328d9cea9b9c14bc4d71
+Building boost-throw-exception:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/57ca915d2601ca7c7fd63b20fa75ecd5e0cfe445: info: installing from git registry git+https://github.com/microsoft/vcpkg@57ca915d2601ca7c7fd63b20fa75ecd5e0cfe445
+Downloading https://github.com/boostorg/throw_exception/archive/boost-1.90.0.tar.gz -> boostorg-throw_exception-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-throw_exception-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-throw_exception-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-throw-exception/src/ost-1.90.0-a9b55e045d.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-throw-exception_arm64-linux/share/boost-throw-exception/copyright
+-- Performing post-build validation
+Starting submission of boost-throw-exception:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-throw-exception:arm64-linux: 653 ms
+Completed submission of boost-assert:arm64-linux@1.90.0#1 to 1 binary cache(s) in 1.6 ms
+Installing 13/70 boost-preprocessor:arm64-linux@1.90.0#1...
+boost-preprocessor:arm64-linux@1.90.0#1 package ABI: b7e91913b18ad9e557bd0090b94619cbba4ab57d49b5d329e96f237b046b0b32
+Building boost-preprocessor:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/69e38717186a35e6abfa991e9379da8527d655bf: info: installing from git registry git+https://github.com/microsoft/vcpkg@69e38717186a35e6abfa991e9379da8527d655bf
+Downloading https://github.com/boostorg/preprocessor/archive/boost-1.90.0.tar.gz -> boostorg-preprocessor-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-preprocessor-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-preprocessor-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-preprocessor/src/ost-1.90.0-2f2f4ed921.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-preprocessor_arm64-linux/share/boost-preprocessor/copyright
+-- Performing post-build validation
+Starting submission of boost-preprocessor:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-preprocessor:arm64-linux: 984 ms
+Completed submission of boost-throw-exception:arm64-linux@1.90.0#1 to 1 binary cache(s) in 1.5 ms
+Installing 14/70 boost-io:arm64-linux@1.90.0#1...
+boost-io:arm64-linux@1.90.0#1 package ABI: d2118080f59e47f3ab591ebeadf4027a8b30e60d34903e86d5048b364781d70b
+Building boost-io:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/c79681101f2a3a466023edd8ff12068e8d11323d: info: installing from git registry git+https://github.com/microsoft/vcpkg@c79681101f2a3a466023edd8ff12068e8d11323d
+Downloading https://github.com/boostorg/io/archive/boost-1.90.0.tar.gz -> boostorg-io-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-io-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-io-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-io/src/ost-1.90.0-7e07208475.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-io_arm64-linux/share/boost-io/copyright
+-- Performing post-build validation
+Starting submission of boost-io:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-io:arm64-linux: 692 ms
+Completed submission of boost-preprocessor:arm64-linux@1.90.0#1 to 1 binary cache(s) in 52.6 ms
+Installing 15/70 boost-core:arm64-linux@1.90.0#1...
+boost-core:arm64-linux@1.90.0#1 package ABI: 4ad8ad669ae57cf29bab979c0a1cf58822a24d5f3aad4744466e9f7959bc94c7
+Building boost-core:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/a4ee1de182f85e01295c57b9acb6f9584be17388: info: installing from git registry git+https://github.com/microsoft/vcpkg@a4ee1de182f85e01295c57b9acb6f9584be17388
+Downloading https://github.com/boostorg/core/archive/boost-1.90.0.tar.gz -> boostorg-core-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-core-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-core-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-core/src/ost-1.90.0-711a16cc0a.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-core_arm64-linux/share/boost-core/copyright
+-- Performing post-build validation
+Starting submission of boost-core:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-core:arm64-linux: 745 ms
+Completed submission of boost-io:arm64-linux@1.90.0#1 to 1 binary cache(s) in 1.7 ms
+Installing 16/70 boost-utility:arm64-linux@1.90.0#1...
+boost-utility:arm64-linux@1.90.0#1 package ABI: f548149711ce91f101aff0f007e827a553ec628490f324fd3b18f96af3326533
+Building boost-utility:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/0ee9ffd5bdcd704be2187d1fdbdbb66bc23bd1f2: info: installing from git registry git+https://github.com/microsoft/vcpkg@0ee9ffd5bdcd704be2187d1fdbdbb66bc23bd1f2
+Downloading https://github.com/boostorg/utility/archive/boost-1.90.0.tar.gz -> boostorg-utility-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-utility-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-utility-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-utility/src/ost-1.90.0-ad6b974697.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-utility_arm64-linux/share/boost-utility/copyright
+-- Performing post-build validation
+Starting submission of boost-utility:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-utility:arm64-linux: 729 ms
+Completed submission of boost-core:arm64-linux@1.90.0#1 to 1 binary cache(s) in 6.23 ms
+Installing 17/70 boost-smart-ptr:arm64-linux@1.90.0#1...
+boost-smart-ptr:arm64-linux@1.90.0#1 package ABI: f1804c1583f698c4fe171aa989701b308843160dd6a873c4cf11bc1575a38e1e
+Building boost-smart-ptr:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/3a3824f0a22c01fc18d1b2b6f73f2ee6a21385e8: info: installing from git registry git+https://github.com/microsoft/vcpkg@3a3824f0a22c01fc18d1b2b6f73f2ee6a21385e8
+Downloading https://github.com/boostorg/smart_ptr/archive/boost-1.90.0.tar.gz -> boostorg-smart_ptr-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-smart_ptr-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-smart_ptr-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-smart-ptr/src/ost-1.90.0-ed44268256.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-smart-ptr_arm64-linux/share/boost-smart-ptr/copyright
+-- Performing post-build validation
+Starting submission of boost-smart-ptr:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-smart-ptr:arm64-linux: 811 ms
+Completed submission of boost-utility:arm64-linux@1.90.0#1 to 1 binary cache(s) in 4.55 ms
+Installing 18/70 boost-optional:arm64-linux@1.90.0#1...
+boost-optional:arm64-linux@1.90.0#1 package ABI: e51ebbc1890bc949c8b6537572f2f39e4aa259fdbdc77157b202f8ff4425a5de
+Building boost-optional:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/37d48513a5c0e1dd869909555ca4d58ad34f94da: info: installing from git registry git+https://github.com/microsoft/vcpkg@37d48513a5c0e1dd869909555ca4d58ad34f94da
+Downloading https://github.com/boostorg/optional/archive/boost-1.90.0.tar.gz -> boostorg-optional-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-optional-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-optional-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-optional/src/ost-1.90.0-a5d7d1c31d.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-optional_arm64-linux/share/boost-optional/copyright
+-- Performing post-build validation
+Starting submission of boost-optional:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-optional:arm64-linux: 808 ms
+Completed submission of boost-smart-ptr:arm64-linux@1.90.0#1 to 1 binary cache(s) in 4.73 ms
+Installing 19/70 boost-format:arm64-linux@1.90.0#1...
+boost-format:arm64-linux@1.90.0#1 package ABI: ad4f86676ebc89af2897bf05d762fda9525c536e417cebc051036c0b572eb8f4
+Building boost-format:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/7f4cc9fcdd80eab65fc4812efd37658a1942b37e: info: installing from git registry git+https://github.com/microsoft/vcpkg@7f4cc9fcdd80eab65fc4812efd37658a1942b37e
+Downloading https://github.com/boostorg/format/archive/boost-1.90.0.tar.gz -> boostorg-format-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-format-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-format-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-format/src/ost-1.90.0-cf34d61160.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-format_arm64-linux/share/boost-format/copyright
+-- Performing post-build validation
+Starting submission of boost-format:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-format:arm64-linux: 773 ms
+Completed submission of boost-optional:arm64-linux@1.90.0#1 to 1 binary cache(s) in 2.72 ms
+Installing 20/70 boost-predef:arm64-linux@1.90.0#1...
+boost-predef:arm64-linux@1.90.0#1 package ABI: f683f478791b776da0475c3b09e8d3cd6b7919033aa7bc4a84836cb4c7803340
+Building boost-predef:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/41db6ec4273c0e91a5720b7b0297855d0d482d47: info: installing from git registry git+https://github.com/microsoft/vcpkg@41db6ec4273c0e91a5720b7b0297855d0d482d47
+Downloading https://github.com/boostorg/predef/archive/boost-1.90.0.tar.gz -> boostorg-predef-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-predef-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-predef-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-predef/src/ost-1.90.0-8a8e3c9b1e.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-predef_arm64-linux/share/boost-predef/copyright
+-- Performing post-build validation
+Starting submission of boost-predef:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-predef:arm64-linux: 774 ms
+Completed submission of boost-format:arm64-linux@1.90.0#1 to 1 binary cache(s) in 3.16 ms
+Installing 21/70 boost-mpl:arm64-linux@1.90.0#1...
+boost-mpl:arm64-linux@1.90.0#1 package ABI: 75473fea0199a99012660f1986151e43bc512f98e3b99b66920b6f9071adfa7d
+Building boost-mpl:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/7c12686c52a82dc407796d9239791d4e74f8ebed: info: installing from git registry git+https://github.com/microsoft/vcpkg@7c12686c52a82dc407796d9239791d4e74f8ebed
+Downloading https://github.com/boostorg/mpl/archive/boost-1.90.0.tar.gz -> boostorg-mpl-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-mpl-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-mpl-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-mpl/src/ost-1.90.0-c5017d0d4d.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-mpl_arm64-linux/share/boost-mpl/copyright
+-- Performing post-build validation
+Starting submission of boost-mpl:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-mpl:arm64-linux: 864 ms
+Completed submission of boost-predef:arm64-linux@1.90.0#1 to 1 binary cache(s) in 7.3 ms
+Installing 22/70 boost-mp11:arm64-linux@1.90.0#1...
+boost-mp11:arm64-linux@1.90.0#1 package ABI: eec1c8946a7084820a5dabd4c385497649007ef4af7f79b689738c2b63c2bbfb
+Building boost-mp11:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/48a6d4f6c7890f050ab4d0253d11ecb71c5193fe: info: installing from git registry git+https://github.com/microsoft/vcpkg@48a6d4f6c7890f050ab4d0253d11ecb71c5193fe
+Downloading https://github.com/boostorg/mp11/archive/boost-1.90.0.tar.gz -> boostorg-mp11-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-mp11-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-mp11-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-mp11/src/ost-1.90.0-544a2037e4.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-mp11_arm64-linux/share/boost-mp11/copyright
+-- Performing post-build validation
+Starting submission of boost-mp11:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-mp11:arm64-linux: 751 ms
+Completed submission of boost-mpl:arm64-linux@1.90.0#1 to 1 binary cache(s) in 53.5 ms
+Installing 23/70 boost-typeof:arm64-linux@1.90.0#1...
+boost-typeof:arm64-linux@1.90.0#1 package ABI: 26d855704f015f97c58076f535361c45b4cfe781b3365989065eb31a76da1d81
+Building boost-typeof:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/7049781217624a5d23e8a7fdbb3b9b762c575110: info: installing from git registry git+https://github.com/microsoft/vcpkg@7049781217624a5d23e8a7fdbb3b9b762c575110
+Downloading https://github.com/boostorg/typeof/archive/boost-1.90.0.tar.gz -> boostorg-typeof-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-typeof-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-typeof-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-typeof/src/ost-1.90.0-5aac027dc0.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-typeof_arm64-linux/share/boost-typeof/copyright
+-- Performing post-build validation
+Starting submission of boost-typeof:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-typeof:arm64-linux: 753 ms
+Completed submission of boost-mp11:arm64-linux@1.90.0#1 to 1 binary cache(s) in 3.53 ms
+Installing 24/70 boost-tuple:arm64-linux@1.90.0#1...
+boost-tuple:arm64-linux@1.90.0#1 package ABI: ff200d104686fd5f44bcaa094106e2dd5c71068c848add0a487485ee88243f5d
+Building boost-tuple:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/7100b38f1042d44e77b6eaf06cf946fd3e6fc86f: info: installing from git registry git+https://github.com/microsoft/vcpkg@7100b38f1042d44e77b6eaf06cf946fd3e6fc86f
+Downloading https://github.com/boostorg/tuple/archive/boost-1.90.0.tar.gz -> boostorg-tuple-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-tuple-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-tuple-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-tuple/src/ost-1.90.0-ea34cc3f11.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-tuple_arm64-linux/share/boost-tuple/copyright
+-- Performing post-build validation
+Starting submission of boost-tuple:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-tuple:arm64-linux: 741 ms
+Completed submission of boost-typeof:arm64-linux@1.90.0#1 to 1 binary cache(s) in 1.94 ms
+Installing 25/70 boost-detail:arm64-linux@1.90.0#1...
+boost-detail:arm64-linux@1.90.0#1 package ABI: 756a70c636aa6343a331e10f0be9c9e712bdcdbe91bbe3e0110df2f0f53618cb
+Building boost-detail:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/ebd543154e618ddffe7b7aa153f0e14ef6c9055d: info: installing from git registry git+https://github.com/microsoft/vcpkg@ebd543154e618ddffe7b7aa153f0e14ef6c9055d
+Downloading https://github.com/boostorg/detail/archive/boost-1.90.0.tar.gz -> boostorg-detail-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-detail-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-detail-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-detail/src/ost-1.90.0-d4dd7efec8.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-detail_arm64-linux/share/boost-detail/copyright
+-- Performing post-build validation
+Starting submission of boost-detail:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-detail:arm64-linux: 1.2 s
+Completed submission of boost-tuple:arm64-linux@1.90.0#1 to 1 binary cache(s) in 1.87 ms
+Installing 26/70 boost-function-types:arm64-linux@1.90.0#1...
+boost-function-types:arm64-linux@1.90.0#1 package ABI: c0fabbe43a8994e162fdadb7cd3c4fcdd7cdbcef05785e120f7b67ba036c46c3
+Building boost-function-types:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/3802e7d77ccbf05b5853737c1768ef0fd3f44c29: info: installing from git registry git+https://github.com/microsoft/vcpkg@3802e7d77ccbf05b5853737c1768ef0fd3f44c29
+Downloading https://github.com/boostorg/function_types/archive/boost-1.90.0.tar.gz -> boostorg-function_types-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-function_types-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-function_types-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-function-types/src/ost-1.90.0-863be242f4.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-function-types_arm64-linux/share/boost-function-types/copyright
+-- Performing post-build validation
+Starting submission of boost-function-types:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-function-types:arm64-linux: 746 ms
+Completed submission of boost-detail:arm64-linux@1.90.0#1 to 1 binary cache(s) in 2.7 ms
+Installing 27/70 boost-bind:arm64-linux@1.90.0#1...
+boost-bind:arm64-linux@1.90.0#1 package ABI: e8ad8b8ca18b6b629aa8edaa3c1914b2c6b7fb2dc68d5a08118e90756c4c716f
+Building boost-bind:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/64a915580ea3acee2702b8b4fd06d8c41b34166b: info: installing from git registry git+https://github.com/microsoft/vcpkg@64a915580ea3acee2702b8b4fd06d8c41b34166b
+Downloading https://github.com/boostorg/bind/archive/boost-1.90.0.tar.gz -> boostorg-bind-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-bind-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-bind-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-bind/src/ost-1.90.0-13d0668dd9.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-bind_arm64-linux/share/boost-bind/copyright
+-- Performing post-build validation
+Starting submission of boost-bind:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-bind:arm64-linux: 764 ms
+Completed submission of boost-function-types:arm64-linux@1.90.0#1 to 1 binary cache(s) in 6.8 ms
+Installing 28/70 boost-function:arm64-linux@1.90.0#1...
+boost-function:arm64-linux@1.90.0#1 package ABI: 399dfb249e20e8d4d31c09b5bd7988087634ee184be84a94b55367c2e27d50d5
+Building boost-function:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/2048498b24410da70663df6357839feb66164ab9: info: installing from git registry git+https://github.com/microsoft/vcpkg@2048498b24410da70663df6357839feb66164ab9
+Downloading https://github.com/boostorg/function/archive/boost-1.90.0.tar.gz -> boostorg-function-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-function-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-function-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-function/src/ost-1.90.0-fc93f6d122.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-function_arm64-linux/share/boost-function/copyright
+-- Performing post-build validation
+Starting submission of boost-function:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-function:arm64-linux: 725 ms
+Completed submission of boost-bind:arm64-linux@1.90.0#1 to 1 binary cache(s) in 2.16 ms
+Installing 29/70 boost-functional:arm64-linux@1.90.0#1...
+boost-functional:arm64-linux@1.90.0#1 package ABI: c65ab7208fae94f68497bc423683d91c6336b2ac8dea42047b3c79517d88373e
+Building boost-functional:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/a8150d40e2b3d92e2609e9e3cc165cbba86caadb: info: installing from git registry git+https://github.com/microsoft/vcpkg@a8150d40e2b3d92e2609e9e3cc165cbba86caadb
+Downloading https://github.com/boostorg/functional/archive/boost-1.90.0.tar.gz -> boostorg-functional-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-functional-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-functional-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-functional/src/ost-1.90.0-ee74ea2d91.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-functional_arm64-linux/share/boost-functional/copyright
+-- Performing post-build validation
+Starting submission of boost-functional:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-functional:arm64-linux: 738 ms
+Completed submission of boost-function:arm64-linux@1.90.0#1 to 1 binary cache(s) in 2.43 ms
+Installing 30/70 boost-describe:arm64-linux@1.90.0#1...
+boost-describe:arm64-linux@1.90.0#1 package ABI: 1fa94beda16ac4ca0d7688e8a222ee283f4551a4a8effc60f9b0a9b3c04130e7
+Building boost-describe:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/b45ba8548669842c649c4e9c21de95be93ef3dda: info: installing from git registry git+https://github.com/microsoft/vcpkg@b45ba8548669842c649c4e9c21de95be93ef3dda
+Downloading https://github.com/boostorg/describe/archive/boost-1.90.0.tar.gz -> boostorg-describe-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-describe-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-describe-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-describe/src/ost-1.90.0-ac379b77b6.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-describe_arm64-linux/share/boost-describe/copyright
+-- Performing post-build validation
+Starting submission of boost-describe:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-describe:arm64-linux: 717 ms
+Completed submission of boost-functional:arm64-linux@1.90.0#1 to 1 binary cache(s) in 2.19 ms
+Installing 31/70 boost-container-hash:arm64-linux@1.90.0#1...
+boost-container-hash:arm64-linux@1.90.0#1 package ABI: 28c7ff6071309e1d19b3b67834c34ec2185b839c3ae0aa7a48d8fdea6aefd701
+Building boost-container-hash:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/d6ceb8922b847316efbf724cb7df7c28e0e8282b: info: installing from git registry git+https://github.com/microsoft/vcpkg@d6ceb8922b847316efbf724cb7df7c28e0e8282b
+Downloading https://github.com/boostorg/container_hash/archive/boost-1.90.0.tar.gz -> boostorg-container_hash-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-container_hash-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-container_hash-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-container-hash/src/ost-1.90.0-ea5929f85f.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-container-hash_arm64-linux/share/boost-container-hash/copyright
+-- Performing post-build validation
+Starting submission of boost-container-hash:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-container-hash:arm64-linux: 714 ms
+Completed submission of boost-describe:arm64-linux@1.90.0#1 to 1 binary cache(s) in 2 ms
+Installing 32/70 boost-fusion:arm64-linux@1.90.0#1...
+boost-fusion:arm64-linux@1.90.0#1 package ABI: 41e31cffb5e2f8bdf0f3411149d973d0278ff15c991328fb37611663088673f0
+Building boost-fusion:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/49b5346b0c3471caf8dcb19c78fb982923510393: info: installing from git registry git+https://github.com/microsoft/vcpkg@49b5346b0c3471caf8dcb19c78fb982923510393
+Downloading https://github.com/boostorg/fusion/archive/boost-1.90.0.tar.gz -> boostorg-fusion-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-fusion-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-fusion-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-fusion/src/ost-1.90.0-36c06e7524.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-fusion_arm64-linux/share/boost-fusion/copyright
+-- Performing post-build validation
+Starting submission of boost-fusion:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-fusion:arm64-linux: 1.1 s
+Completed submission of boost-container-hash:arm64-linux@1.90.0#1 to 1 binary cache(s) in 2.16 ms
+Installing 33/70 boost-concept-check:arm64-linux@1.90.0#1...
+boost-concept-check:arm64-linux@1.90.0#1 package ABI: 0c8eabe05a0f58a46dac5ad1c00877cfc89930a731238eb070daa4cb203c0649
+Building boost-concept-check:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/e1758b2a2a779dd3525e4b67b7311211c51c3235: info: installing from git registry git+https://github.com/microsoft/vcpkg@e1758b2a2a779dd3525e4b67b7311211c51c3235
+Downloading https://github.com/boostorg/concept_check/archive/boost-1.90.0.tar.gz -> boostorg-concept_check-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-concept_check-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-concept_check-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-concept-check/src/ost-1.90.0-cae984afcf.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-concept-check_arm64-linux/share/boost-concept-check/copyright
+-- Performing post-build validation
+Starting submission of boost-concept-check:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-concept-check:arm64-linux: 560 ms
+Completed submission of boost-fusion:arm64-linux@1.90.0#1 to 1 binary cache(s) in 97 ms
+Installing 34/70 boost-iterator:arm64-linux@1.90.0#1...
+boost-iterator:arm64-linux@1.90.0#1 package ABI: da8b023b91c1d41779b97dac5f150f2adbc751c5f26b3a0262da95c589013d05
+Building boost-iterator:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/3af9bc41d5ca406591540ef93fdfd87321430877: info: installing from git registry git+https://github.com/microsoft/vcpkg@3af9bc41d5ca406591540ef93fdfd87321430877
+Downloading https://github.com/boostorg/iterator/archive/boost-1.90.0.tar.gz -> boostorg-iterator-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-iterator-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-iterator-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-iterator/src/ost-1.90.0-dd58b06ecd.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-iterator_arm64-linux/share/boost-iterator/copyright
+-- Performing post-build validation
+Starting submission of boost-iterator:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-iterator:arm64-linux: 945 ms
+Completed submission of boost-concept-check:arm64-linux@1.90.0#1 to 1 binary cache(s) in 2.27 ms
+Installing 35/70 boost-regex:arm64-linux@1.90.0#1...
+boost-regex:arm64-linux@1.90.0#1 package ABI: c1d16dc1d46c781a87bea307612a159d041eb4da9a4e7f605f812c26588cc1b4
+Building boost-regex:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/5b2b8c76f23f47366505fc7edb183c9596860d8d: info: installing from git registry git+https://github.com/microsoft/vcpkg@5b2b8c76f23f47366505fc7edb183c9596860d8d
+Downloading https://github.com/boostorg/regex/archive/boost-1.90.0.tar.gz -> boostorg-regex-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-regex-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-regex-boost-1.90.0.tar.gz
+-- Applying patch compat.diff
+-- Using source at /opt/vcpkg/buildtrees/boost-regex/src/ost-1.90.0-95464e69d3.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-regex_arm64-linux/share/boost-regex/copyright
+-- Performing post-build validation
+Starting submission of boost-regex:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-regex:arm64-linux: 873 ms
+Completed submission of boost-iterator:arm64-linux@1.90.0#1 to 1 binary cache(s) in 4.74 ms
+Installing 36/70 boost-conversion:arm64-linux@1.90.0#1...
+boost-conversion:arm64-linux@1.90.0#1 package ABI: 1cc76abc5bbdde9ddc12f9025548851c1edf43dc36159a79559da6b6a854c827
+Building boost-conversion:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/f44161fb13a818d55243094a9ce3270b737cf76e: info: installing from git registry git+https://github.com/microsoft/vcpkg@f44161fb13a818d55243094a9ce3270b737cf76e
+Downloading https://github.com/boostorg/conversion/archive/boost-1.90.0.tar.gz -> boostorg-conversion-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-conversion-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-conversion-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-conversion/src/ost-1.90.0-068bb0780f.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-conversion_arm64-linux/share/boost-conversion/copyright
+-- Performing post-build validation
+Starting submission of boost-conversion:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-conversion:arm64-linux: 682 ms
+Completed submission of boost-regex:arm64-linux@1.90.0#1 to 1 binary cache(s) in 12 ms
+Installing 37/70 boost-array:arm64-linux@1.90.0#1...
+boost-array:arm64-linux@1.90.0#1 package ABI: c929f16305f05f8265137e9bdcf1b5d9c43fcce016545cfe9241d9982dc0d72f
+Building boost-array:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/99b577fa8df790296f132dd518aa92ba5b7efcaa: info: installing from git registry git+https://github.com/microsoft/vcpkg@99b577fa8df790296f132dd518aa92ba5b7efcaa
+Downloading https://github.com/boostorg/array/archive/boost-1.90.0.tar.gz -> boostorg-array-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-array-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-array-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-array/src/ost-1.90.0-023a44a736.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-array_arm64-linux/share/boost-array/copyright
+-- Performing post-build validation
+Starting submission of boost-array:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-array:arm64-linux: 698 ms
+Completed submission of boost-conversion:arm64-linux@1.90.0#1 to 1 binary cache(s) in 1.42 ms
+Installing 38/70 boost-range:arm64-linux@1.90.0#1...
+boost-range:arm64-linux@1.90.0#1 package ABI: 5a1d4c5b05f170708c92d17e3d707d8386e4bac447a78bd6f86b7400820d3d6e
+Building boost-range:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/953221c04869e3032889d95eef9b209281f8c04a: info: installing from git registry git+https://github.com/microsoft/vcpkg@953221c04869e3032889d95eef9b209281f8c04a
+Downloading https://github.com/boostorg/range/archive/boost-1.90.0.tar.gz -> boostorg-range-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-range-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-range-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-range/src/ost-1.90.0-df3a4ebd7b.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-range_arm64-linux/share/boost-range/copyright
+-- Performing post-build validation
+Starting submission of boost-range:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-range:arm64-linux: 810 ms
+Completed submission of boost-array:arm64-linux@1.90.0#1 to 1 binary cache(s) in 1.36 ms
+Installing 39/70 catch2:arm64-linux@3.14.0...
+catch2:arm64-linux@3.14.0 package ABI: 2b2c638f1d0a8b10e39a08093b6eca9b210278685359b9246618cd76f318d3ed
+Building catch2:arm64-linux@3.14.0...
+/root/.cache/vcpkg/registries/git-trees/ca0981c00662c1c56cb85f99200177377ebdf2c5: info: installing from git registry git+https://github.com/microsoft/vcpkg@ca0981c00662c1c56cb85f99200177377ebdf2c5
+Downloading https://github.com/catchorg/Catch2/archive/v3.14.0.tar.gz -> catchorg-Catch2-v3.14.0.tar.gz
+Successfully downloaded catchorg-Catch2-v3.14.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/catchorg-Catch2-v3.14.0.tar.gz
+-- Applying patch fix-install-path.patch
+-- Using source at /opt/vcpkg/buildtrees/catch2/src/v3.14.0-6c4a9cc7bc.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-dbg
+-- Building arm64-linux-rel
+-- Fixing pkgconfig file: /opt/vcpkg/packages/catch2_arm64-linux/lib/pkgconfig/catch2-with-main.pc
+-- Fixing pkgconfig file: /opt/vcpkg/packages/catch2_arm64-linux/lib/pkgconfig/catch2.pc
+-- Fixing pkgconfig file: /opt/vcpkg/packages/catch2_arm64-linux/debug/lib/pkgconfig/catch2-with-main.pc
+-- Fixing pkgconfig file: /opt/vcpkg/packages/catch2_arm64-linux/debug/lib/pkgconfig/catch2.pc
+-- Installing: /opt/vcpkg/packages/catch2_arm64-linux/share/catch2/copyright
+-- Performing post-build validation
+Starting submission of catch2:arm64-linux@3.14.0 to 1 binary cache(s) in the background
+Elapsed time to handle catch2:arm64-linux: 9.1 s
+Completed submission of boost-range:arm64-linux@1.90.0#1 to 1 binary cache(s) in 10.4 ms
+Installing 40/70 fmt:arm64-linux@12.1.0...
+fmt:arm64-linux@12.1.0 package ABI: 9da7588ac7d10b57b96e9952f587b45eecaeab1eb6695f6ee98c60540f0ec454
+Building fmt:arm64-linux@12.1.0...
+/root/.cache/vcpkg/registries/git-trees/936231a2c765082457d348a8781ea9d3610eb331: info: installing from git registry git+https://github.com/microsoft/vcpkg@936231a2c765082457d348a8781ea9d3610eb331
+Downloading https://github.com/fmtlib/fmt/archive/12.1.0.tar.gz -> fmtlib-fmt-12.1.0.tar.gz
+Successfully downloaded fmtlib-fmt-12.1.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/fmtlib-fmt-12.1.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/fmt/src/12.1.0-54f1f91231.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-dbg
+-- Building arm64-linux-rel
+-- Fixing pkgconfig file: /opt/vcpkg/packages/fmt_arm64-linux/lib/pkgconfig/fmt.pc
+-- Fixing pkgconfig file: /opt/vcpkg/packages/fmt_arm64-linux/debug/lib/pkgconfig/fmt.pc
+-- Installing: /opt/vcpkg/packages/fmt_arm64-linux/share/fmt/usage
+-- Installing: /opt/vcpkg/packages/fmt_arm64-linux/share/fmt/copyright
+-- Performing post-build validation
+Starting submission of fmt:arm64-linux@12.1.0 to 1 binary cache(s) in the background
+Elapsed time to handle fmt:arm64-linux: 3.4 s
+Completed submission of catch2:arm64-linux@3.14.0 to 1 binary cache(s) in 737 ms
+Installing 41/70 boost-uuid:arm64-linux@1.90.0#1...
+boost-uuid:arm64-linux@1.90.0#1 package ABI: 4db8c1c9c47a08f67d955b9777b1d547675bd78c8e98f45fd3e1147052f17bf9
+Building boost-uuid:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/bb57363929104844e406e567595466a1267b2868: info: installing from git registry git+https://github.com/microsoft/vcpkg@bb57363929104844e406e567595466a1267b2868
+Downloading https://github.com/boostorg/uuid/archive/boost-1.90.0.tar.gz -> boostorg-uuid-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-uuid-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-uuid-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-uuid/src/ost-1.90.0-6a985bdd78.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-uuid_arm64-linux/share/boost-uuid/copyright
+-- Performing post-build validation
+Starting submission of boost-uuid:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-uuid:arm64-linux: 909 ms
+Completed submission of fmt:arm64-linux@12.1.0 to 1 binary cache(s) in 53.4 ms
+Installing 42/70 boost-variant2:arm64-linux@1.90.0#1...
+boost-variant2:arm64-linux@1.90.0#1 package ABI: ac9a3e0b3042446a22c83dec2badc3eff13373ebef8a3acfc7f1a00410523254
+Building boost-variant2:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/66abf90331991c40b311f1141f6aef414e619e9b: info: installing from git registry git+https://github.com/microsoft/vcpkg@66abf90331991c40b311f1141f6aef414e619e9b
+Downloading https://github.com/boostorg/variant2/archive/boost-1.90.0.tar.gz -> boostorg-variant2-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-variant2-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-variant2-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-variant2/src/ost-1.90.0-976890056e.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-variant2_arm64-linux/share/boost-variant2/copyright
+-- Performing post-build validation
+Starting submission of boost-variant2:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-variant2:arm64-linux: 805 ms
+Completed submission of boost-uuid:arm64-linux@1.90.0#1 to 1 binary cache(s) in 3.54 ms
+Installing 43/70 boost-type-index:arm64-linux@1.90.0#1...
+boost-type-index:arm64-linux@1.90.0#1 package ABI: f9cd8810e4e1311faa562c058647cb1d11aa1a108f138ebea5b2561c514265b3
+Building boost-type-index:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/a549e6af876dde241dc2eddf884f1b0af0519eac: info: installing from git registry git+https://github.com/microsoft/vcpkg@a549e6af876dde241dc2eddf884f1b0af0519eac
+Downloading https://github.com/boostorg/type_index/archive/boost-1.90.0.tar.gz -> boostorg-type_index-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-type_index-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-type_index-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-type-index/src/ost-1.90.0-3a11281bf8.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-type-index_arm64-linux/share/boost-type-index/copyright
+-- Performing post-build validation
+Starting submission of boost-type-index:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-type-index:arm64-linux: 760 ms
+Completed submission of boost-variant2:arm64-linux@1.90.0#1 to 1 binary cache(s) in 2.43 ms
+Installing 44/70 boost-integer:arm64-linux@1.90.0#1...
+boost-integer:arm64-linux@1.90.0#1 package ABI: 505a0f8f92effa917682be0a4587d5ae88d58cbb994b0889016380c4a6df8530
+Building boost-integer:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/84c39b9230d10819aca1b0d2fc8a79a417cde38e: info: installing from git registry git+https://github.com/microsoft/vcpkg@84c39b9230d10819aca1b0d2fc8a79a417cde38e
+Downloading https://github.com/boostorg/integer/archive/boost-1.90.0.tar.gz -> boostorg-integer-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-integer-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-integer-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-integer/src/ost-1.90.0-f9cd1d2491.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-integer_arm64-linux/share/boost-integer/copyright
+-- Performing post-build validation
+Starting submission of boost-integer:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-integer:arm64-linux: 826 ms
+Completed submission of boost-type-index:arm64-linux@1.90.0#1 to 1 binary cache(s) in 2.95 ms
+Installing 45/70 boost-variant:arm64-linux@1.90.0#1...
+boost-variant:arm64-linux@1.90.0#1 package ABI: 2ea8ced93567e76827493fa029e0ae74c6d386874103684dfdba6b846ce27ec8
+Building boost-variant:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/fb25d533713136047882278550fd90dd561968e6: info: installing from git registry git+https://github.com/microsoft/vcpkg@fb25d533713136047882278550fd90dd561968e6
+Downloading https://github.com/boostorg/variant/archive/boost-1.90.0.tar.gz -> boostorg-variant-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-variant-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-variant-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-variant/src/ost-1.90.0-af54e8c1f6.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-variant_arm64-linux/share/boost-variant/copyright
+-- Performing post-build validation
+Starting submission of boost-variant:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-variant:arm64-linux: 609 ms
+Completed submission of boost-integer:arm64-linux@1.90.0#1 to 1 binary cache(s) in 2.41 ms
+Installing 46/70 boost-unordered:arm64-linux@1.90.0#1...
+boost-unordered:arm64-linux@1.90.0#1 package ABI: d1f7acc68e83330dbcc05fde81f0ddff7ab25a4b8f65018b9a6e362bc4f5ec01
+Building boost-unordered:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/1d9b670251ed24b4bbca619ba8d53d94abef6adf: info: installing from git registry git+https://github.com/microsoft/vcpkg@1d9b670251ed24b4bbca619ba8d53d94abef6adf
+Downloading https://github.com/boostorg/unordered/archive/boost-1.90.0.tar.gz -> boostorg-unordered-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-unordered-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-unordered-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-unordered/src/ost-1.90.0-0a90434307.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-unordered_arm64-linux/share/boost-unordered/copyright
+-- Performing post-build validation
+Starting submission of boost-unordered:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-unordered:arm64-linux: 2 s
+Completed submission of boost-variant:arm64-linux@1.90.0#1 to 1 binary cache(s) in 4.5 ms
+Installing 47/70 boost-winapi:arm64-linux@1.90.0#1...
+boost-winapi:arm64-linux@1.90.0#1 package ABI: 9de7ef105a252e6e2015a3df66985fa87ac387099fe60364d3b1d991d15fe777
+Building boost-winapi:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/639211f204a27ab30817b6655efaf3e52af2a6cc: info: installing from git registry git+https://github.com/microsoft/vcpkg@639211f204a27ab30817b6655efaf3e52af2a6cc
+Downloading https://github.com/boostorg/winapi/archive/boost-1.90.0.tar.gz -> boostorg-winapi-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-winapi-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-winapi-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-winapi/src/ost-1.90.0-564381c538.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-winapi_arm64-linux/share/boost-winapi/copyright
+-- Performing post-build validation
+Starting submission of boost-winapi:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-winapi:arm64-linux: 795 ms
+Completed submission of boost-unordered:arm64-linux@1.90.0#1 to 1 binary cache(s) in 12.5 ms
+Installing 48/70 boost-system:arm64-linux@1.90.0#1...
+boost-system:arm64-linux@1.90.0#1 package ABI: 81569cd8a644f964485166c4f2f512413abd2524581012ea5e391e326ccc412d
+Building boost-system:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/ffa5126f9b2f42c9cc1fd65822916272ba9330ae: info: installing from git registry git+https://github.com/microsoft/vcpkg@ffa5126f9b2f42c9cc1fd65822916272ba9330ae
+Downloading https://github.com/boostorg/system/archive/boost-1.90.0.tar.gz -> boostorg-system-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-system-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-system-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-system/src/ost-1.90.0-c8c000e811.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-system_arm64-linux/share/boost-system/copyright
+-- Performing post-build validation
+Starting submission of boost-system:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-system:arm64-linux: 784 ms
+Completed submission of boost-winapi:arm64-linux@1.90.0#1 to 1 binary cache(s) in 9.82 ms
+Installing 49/70 boost-move:arm64-linux@1.90.0#1...
+boost-move:arm64-linux@1.90.0#1 package ABI: 3ab4523f3e827861ae9d63acc15b15d070c7347809b5d055a31cfd3a46f184c2
+Building boost-move:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/d20e9ac3f296584f51419ff55d77d02e84434357: info: installing from git registry git+https://github.com/microsoft/vcpkg@d20e9ac3f296584f51419ff55d77d02e84434357
+Downloading https://github.com/boostorg/move/archive/boost-1.90.0.tar.gz -> boostorg-move-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-move-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-move-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-move/src/ost-1.90.0-0b8fc9ef7a.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-move_arm64-linux/share/boost-move/copyright
+-- Performing post-build validation
+Starting submission of boost-move:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-move:arm64-linux: 769 ms
+Completed submission of boost-system:arm64-linux@1.90.0#1 to 1 binary cache(s) in 4.08 ms
+Installing 50/70 boost-exception:arm64-linux@1.90.0#1...
+boost-exception:arm64-linux@1.90.0#1 package ABI: bd9f471c68cdb8c4c4deba2668a77fd69ff99d091fcdcd728335bc5cecf2090a
+Building boost-exception:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/569f0c0c5ef6a4a42c50f49b0eec95aef0cc6a37: info: installing from git registry git+https://github.com/microsoft/vcpkg@569f0c0c5ef6a4a42c50f49b0eec95aef0cc6a37
+Downloading https://github.com/boostorg/exception/archive/boost-1.90.0.tar.gz -> boostorg-exception-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-exception-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-exception-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-exception/src/ost-1.90.0-e3bd92ec37.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-exception_arm64-linux/share/boost-exception/copyright
+-- Performing post-build validation
+Starting submission of boost-exception:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-exception:arm64-linux: 930 ms
+Completed submission of boost-move:arm64-linux@1.90.0#1 to 1 binary cache(s) in 8.54 ms
+Installing 51/70 boost-tokenizer:arm64-linux@1.90.0#1...
+boost-tokenizer:arm64-linux@1.90.0#1 package ABI: 6df698d6d822c7dddedd1cddbf955f7b38d4f26b114bac06923de649f8cd9a62
+Building boost-tokenizer:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/a8e68feb1372fbabcddfab9436a2aa99c2e6fcff: info: installing from git registry git+https://github.com/microsoft/vcpkg@a8e68feb1372fbabcddfab9436a2aa99c2e6fcff
+Downloading https://github.com/boostorg/tokenizer/archive/boost-1.90.0.tar.gz -> boostorg-tokenizer-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-tokenizer-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-tokenizer-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-tokenizer/src/ost-1.90.0-a2fc8935b6.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-tokenizer_arm64-linux/share/boost-tokenizer/copyright
+-- Performing post-build validation
+Starting submission of boost-tokenizer:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-tokenizer:arm64-linux: 872 ms
+Completed submission of boost-exception:arm64-linux@1.90.0#1 to 1 binary cache(s) in 2.59 ms
+Installing 52/70 boost-numeric-conversion:arm64-linux@1.90.0#1...
+boost-numeric-conversion:arm64-linux@1.90.0#1 package ABI: fdbb2699e6853262fdb2991dfe82604d745d4a700815034127cf03621b44436e
+Building boost-numeric-conversion:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/fb3a9d99aef2786186883c9b74e5c6dfbcc30ff9: info: installing from git registry git+https://github.com/microsoft/vcpkg@fb3a9d99aef2786186883c9b74e5c6dfbcc30ff9
+Downloading https://github.com/boostorg/numeric_conversion/archive/boost-1.90.0.tar.gz -> boostorg-numeric_conversion-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-numeric_conversion-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-numeric_conversion-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-numeric-conversion/src/ost-1.90.0-e32e09cb8f.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-numeric-conversion_arm64-linux/share/boost-numeric-conversion/copyright
+-- Performing post-build validation
+Starting submission of boost-numeric-conversion:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-numeric-conversion:arm64-linux: 844 ms
+Completed submission of boost-tokenizer:arm64-linux@1.90.0#1 to 1 binary cache(s) in 1.6 ms
+Installing 53/70 boost-intrusive:arm64-linux@1.90.0#1...
+boost-intrusive:arm64-linux@1.90.0#1 package ABI: ddf6216f0b3d646c14a2a48c4d1d2abb1d7f7424e3edfa8f61122786f55e6924
+Building boost-intrusive:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/fffff3ed54058bb3452129fb8055564e0b672559: info: installing from git registry git+https://github.com/microsoft/vcpkg@fffff3ed54058bb3452129fb8055564e0b672559
+Downloading https://github.com/boostorg/intrusive/archive/boost-1.90.0.tar.gz -> boostorg-intrusive-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-intrusive-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-intrusive-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-intrusive/src/ost-1.90.0-3e4b015c82.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-intrusive_arm64-linux/share/boost-intrusive/copyright
+-- Performing post-build validation
+Starting submission of boost-intrusive:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-intrusive:arm64-linux: 1 s
+Completed submission of boost-numeric-conversion:arm64-linux@1.90.0#1 to 1 binary cache(s) in 2.98 ms
+Installing 54/70 boost-container:arm64-linux@1.90.0#1...
+boost-container:arm64-linux@1.90.0#1 package ABI: b04f211740c9db09f7b93b74df088afa2846ba0082cebf7a3147a3eeba531989
+Building boost-container:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/da85edb36ed2090288b063745744026dd23db156: info: installing from git registry git+https://github.com/microsoft/vcpkg@da85edb36ed2090288b063745744026dd23db156
+Downloading https://github.com/boostorg/container/archive/boost-1.90.0.tar.gz -> boostorg-container-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-container-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-container-boost-1.90.0.tar.gz
+-- Applying patch posix-threads.diff
+-- Using source at /opt/vcpkg/buildtrees/boost-container/src/ost-1.90.0-ebbe259cd5.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-dbg
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-container_arm64-linux/share/boost-container/copyright
+-- Performing post-build validation
+Starting submission of boost-container:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-container:arm64-linux: 2.1 s
+Completed submission of boost-intrusive:arm64-linux@1.90.0#1 to 1 binary cache(s) in 20.2 ms
+Installing 55/70 boost-lexical-cast:arm64-linux@1.90.0#1...
+boost-lexical-cast:arm64-linux@1.90.0#1 package ABI: 969c836e583eb8328a5d99f960e0b6940200d554e37c05acd221aa8a5547e826
+Building boost-lexical-cast:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/83fee140b329a32fcf0a28dcea3966c15a9afc7b: info: installing from git registry git+https://github.com/microsoft/vcpkg@83fee140b329a32fcf0a28dcea3966c15a9afc7b
+Downloading https://github.com/boostorg/lexical_cast/archive/boost-1.90.0.tar.gz -> boostorg-lexical_cast-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-lexical_cast-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-lexical_cast-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-lexical-cast/src/ost-1.90.0-c44665342f.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-lexical-cast_arm64-linux/share/boost-lexical-cast/copyright
+-- Performing post-build validation
+Starting submission of boost-lexical-cast:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-lexical-cast:arm64-linux: 767 ms
+Completed submission of boost-container:arm64-linux@1.90.0#1 to 1 binary cache(s) in 46.5 ms
+Installing 56/70 boost-algorithm:arm64-linux@1.90.0#1...
+boost-algorithm:arm64-linux@1.90.0#1 package ABI: 3eee6fd491c57065210b5f96711107eab9406c15e1e6986fbf7e4225f92ef7b1
+Building boost-algorithm:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/de42a042a1a4f4d7a293ef7fcfaa802493ef72f0: info: installing from git registry git+https://github.com/microsoft/vcpkg@de42a042a1a4f4d7a293ef7fcfaa802493ef72f0
+Downloading https://github.com/boostorg/algorithm/archive/boost-1.90.0.tar.gz -> boostorg-algorithm-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-algorithm-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-algorithm-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-algorithm/src/ost-1.90.0-b7cd715cba.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-algorithm_arm64-linux/share/boost-algorithm/copyright
+-- Performing post-build validation
+Starting submission of boost-algorithm:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-algorithm:arm64-linux: 1.7 s
+Completed submission of boost-lexical-cast:arm64-linux@1.90.0#1 to 1 binary cache(s) in 3.07 ms
+Installing 57/70 boost-date-time:arm64-linux@1.90.0#1...
+boost-date-time:arm64-linux@1.90.0#1 package ABI: 308a1462d602f3a5490670b568ab5a5eda2125130380d672e1b1a7e48cf06834
+Building boost-date-time:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/67065b98e42851899e5dff400750f5d79d2baf1c: info: installing from git registry git+https://github.com/microsoft/vcpkg@67065b98e42851899e5dff400750f5d79d2baf1c
+Downloading https://github.com/boostorg/date_time/archive/boost-1.90.0.tar.gz -> boostorg-date_time-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-date_time-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-date_time-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-date-time/src/ost-1.90.0-3c85e5b301.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-dbg
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-date-time_arm64-linux/share/boost-date-time/copyright
+-- Performing post-build validation
+Starting submission of boost-date-time:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-date-time:arm64-linux: 1.1 s
+Completed submission of boost-algorithm:arm64-linux@1.90.0#1 to 1 binary cache(s) in 8.72 ms
+Installing 58/70 boost-ratio:arm64-linux@1.90.0#1...
+boost-ratio:arm64-linux@1.90.0#1 package ABI: 8baaf9bc76bd36f9ebf8c11cb08fd2abcc0f9d2c99c044e11b0bdc77587aa2e9
+Building boost-ratio:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/e04da230bfd47f04f4078591096cab18c4984add: info: installing from git registry git+https://github.com/microsoft/vcpkg@e04da230bfd47f04f4078591096cab18c4984add
+Downloading https://github.com/boostorg/ratio/archive/boost-1.90.0.tar.gz -> boostorg-ratio-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-ratio-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-ratio-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-ratio/src/ost-1.90.0-9ae5cb24c8.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-ratio_arm64-linux/share/boost-ratio/copyright
+-- Performing post-build validation
+Starting submission of boost-ratio:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-ratio:arm64-linux: 987 ms
+Completed submission of boost-date-time:arm64-linux@1.90.0#1 to 1 binary cache(s) in 12 ms
+Installing 59/70 boost-chrono:arm64-linux@1.90.0#1...
+boost-chrono:arm64-linux@1.90.0#1 package ABI: 9c0213297e097ff215b8ab60b298e25ac8793794051c07915d6a47fd72a7b6ca
+Building boost-chrono:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/ebb7be768b973a0a6a3e116c3231c429356d5f8e: info: installing from git registry git+https://github.com/microsoft/vcpkg@ebb7be768b973a0a6a3e116c3231c429356d5f8e
+Downloading https://github.com/boostorg/chrono/archive/boost-1.90.0.tar.gz -> boostorg-chrono-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-chrono-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-chrono-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-chrono/src/ost-1.90.0-48c8bd7ed0.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-dbg
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-chrono_arm64-linux/share/boost-chrono/copyright
+-- Performing post-build validation
+Starting submission of boost-chrono:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-chrono:arm64-linux: 1.7 s
+Completed submission of boost-ratio:arm64-linux@1.90.0#1 to 1 binary cache(s) in 1.77 ms
+Installing 60/70 boost-align:arm64-linux@1.90.0#1...
+boost-align:arm64-linux@1.90.0#1 package ABI: d87858fafd87c4c50bb7d8b251c155ce8d0d5341c95ed5f7178a8f831a09aa65
+Building boost-align:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/4550a4c5a0044b02be49c57237ce386c795a1e6f: info: installing from git registry git+https://github.com/microsoft/vcpkg@4550a4c5a0044b02be49c57237ce386c795a1e6f
+Downloading https://github.com/boostorg/align/archive/boost-1.90.0.tar.gz -> boostorg-align-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-align-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-align-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-align/src/ost-1.90.0-c0f7e0a723.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-align_arm64-linux/share/boost-align/copyright
+-- Performing post-build validation
+Starting submission of boost-align:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-align:arm64-linux: 1 s
+Completed submission of boost-chrono:arm64-linux@1.90.0#1 to 1 binary cache(s) in 30.7 ms
+Installing 61/70 boost-atomic:arm64-linux@1.90.0#1...
+boost-atomic:arm64-linux@1.90.0#1 package ABI: 7dfa3d7e6405470dcec652f800279d7cdf6bca18004126396a6948b6d0623cb3
+Building boost-atomic:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/cd339bff445063affa1973b10ce0d05e9e0bde25: info: installing from git registry git+https://github.com/microsoft/vcpkg@cd339bff445063affa1973b10ce0d05e9e0bde25
+Downloading https://github.com/boostorg/atomic/archive/boost-1.90.0.tar.gz -> boostorg-atomic-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-atomic-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-atomic-boost-1.90.0.tar.gz
+-- Applying patch fix-include.patch
+-- Using source at /opt/vcpkg/buildtrees/boost-atomic/src/ost-1.90.0-9d509064e3.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-dbg
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-atomic_arm64-linux/share/boost-atomic/copyright
+-- Performing post-build validation
+Starting submission of boost-atomic:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-atomic:arm64-linux: 1.4 s
+Completed submission of boost-align:arm64-linux@1.90.0#1 to 1 binary cache(s) in 3.06 ms
+Installing 62/70 boost-thread:arm64-linux@1.90.0#1...
+boost-thread:arm64-linux@1.90.0#1 package ABI: cf7d41020c4af515c7f88ff424d1953d41515a582aa0cabe008e9e6b18611c12
+Building boost-thread:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/883057c59674c907b8c1165ed3d1c88fd8f76136: info: installing from git registry git+https://github.com/microsoft/vcpkg@883057c59674c907b8c1165ed3d1c88fd8f76136
+Downloading https://github.com/boostorg/thread/archive/boost-1.90.0.tar.gz -> boostorg-thread-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-thread-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-thread-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-thread/src/ost-1.90.0-842ca1f29e.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-dbg
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-thread_arm64-linux/share/boost-thread/copyright
+-- Performing post-build validation
+Starting submission of boost-thread:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-thread:arm64-linux: 3.5 s
+Completed submission of boost-atomic:arm64-linux@1.90.0#1 to 1 binary cache(s) in 18.1 ms
+Installing 63/70 boost-proto:arm64-linux@1.90.0#1...
+boost-proto:arm64-linux@1.90.0#1 package ABI: 0c6dc039c2bcf55b7e599d78023109fbc2bb2f6a41182351a22e5e7f8489913f
+Building boost-proto:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/8837c7efd5677de7bf2400816cc0e1687fe4cd8c: info: installing from git registry git+https://github.com/microsoft/vcpkg@8837c7efd5677de7bf2400816cc0e1687fe4cd8c
+Downloading https://github.com/boostorg/proto/archive/boost-1.90.0.tar.gz -> boostorg-proto-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-proto-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-proto-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-proto/src/ost-1.90.0-81074666da.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-proto_arm64-linux/share/boost-proto/copyright
+-- Performing post-build validation
+Starting submission of boost-proto:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-proto:arm64-linux: 1.1 s
+Completed submission of boost-thread:arm64-linux@1.90.0#1 to 1 binary cache(s) in 60.2 ms
+Installing 64/70 boost-pool:arm64-linux@1.90.0#1...
+boost-pool:arm64-linux@1.90.0#1 package ABI: b82f6568fad8bbad6b20c0d3b1d80f64bfc6117423a0e43d72cfdf61bb9b6a95
+Building boost-pool:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/9e1ba45862580a2e0d9fdd955ebbde3bdbccaf90: info: installing from git registry git+https://github.com/microsoft/vcpkg@9e1ba45862580a2e0d9fdd955ebbde3bdbccaf90
+Downloading https://github.com/boostorg/pool/archive/boost-1.90.0.tar.gz -> boostorg-pool-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-pool-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-pool-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-pool/src/ost-1.90.0-aa847279a9.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-pool_arm64-linux/share/boost-pool/copyright
+-- Performing post-build validation
+Starting submission of boost-pool:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-pool:arm64-linux: 1.1 s
+Completed submission of boost-proto:arm64-linux@1.90.0#1 to 1 binary cache(s) in 17.6 ms
+Installing 65/70 boost-phoenix:arm64-linux@1.90.0#1...
+boost-phoenix:arm64-linux@1.90.0#1 package ABI: 8165b4458e100548c26f42dc29e088b160c619bd0a354b7aaa779ae33023026d
+Building boost-phoenix:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/c11fef02a7518852a8b0b7add96fee4f7c421be7: info: installing from git registry git+https://github.com/microsoft/vcpkg@c11fef02a7518852a8b0b7add96fee4f7c421be7
+Downloading https://github.com/boostorg/phoenix/archive/boost-1.90.0.tar.gz -> boostorg-phoenix-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-phoenix-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-phoenix-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-phoenix/src/ost-1.90.0-d14ad022c1.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-phoenix_arm64-linux/share/boost-phoenix/copyright
+-- Performing post-build validation
+Starting submission of boost-phoenix:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-phoenix:arm64-linux: 1.2 s
+Completed submission of boost-pool:arm64-linux@1.90.0#1 to 1 binary cache(s) in 4.96 ms
+Installing 66/70 boost-endian:arm64-linux@1.90.0#1...
+boost-endian:arm64-linux@1.90.0#1 package ABI: 03eba2185bf44306d0988cad99d1c04a4da591bc638935e15dd394e18c7e25eb
+Building boost-endian:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/48cdf6c7ccea38184680e59e5d78dd90c343337e: info: installing from git registry git+https://github.com/microsoft/vcpkg@48cdf6c7ccea38184680e59e5d78dd90c343337e
+Downloading https://github.com/boostorg/endian/archive/boost-1.90.0.tar.gz -> boostorg-endian-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-endian-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-endian-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-endian/src/ost-1.90.0-ca22f680df.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-endian_arm64-linux/share/boost-endian/copyright
+-- Performing post-build validation
+Starting submission of boost-endian:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-endian:arm64-linux: 849 ms
+Completed submission of boost-phoenix:arm64-linux@1.90.0#1 to 1 binary cache(s) in 97 ms
+Installing 67/70 boost-spirit:arm64-linux@1.90.0#1...
+boost-spirit:arm64-linux@1.90.0#1 package ABI: 4ba4ea195546f27fd0f8ed12a95436284f4963009ed2bfa4b3558cb145babfe3
+Building boost-spirit:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/1add6e97c82a5736d2e66be4a298546064a354e8: info: installing from git registry git+https://github.com/microsoft/vcpkg@1add6e97c82a5736d2e66be4a298546064a354e8
+Downloading https://github.com/boostorg/spirit/archive/boost-1.90.0.tar.gz -> boostorg-spirit-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-spirit-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-spirit-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-spirit/src/ost-1.90.0-8931e23af4.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-spirit_arm64-linux/share/boost-spirit/copyright
+-- Performing post-build validation
+Starting submission of boost-spirit:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-spirit:arm64-linux: 2 s
+Completed submission of boost-endian:arm64-linux@1.90.0#1 to 1 binary cache(s) in 2.39 ms
+Installing 68/70 boost-serialization:arm64-linux@1.90.0#1...
+boost-serialization:arm64-linux@1.90.0#1 package ABI: 7c487b85205069d2a787c5bc4b9c358c7a52353e93de68f7a76dbbc6c3880e37
+Building boost-serialization:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/be58890c226ed96b714eb92eda245a0821a49027: info: installing from git registry git+https://github.com/microsoft/vcpkg@be58890c226ed96b714eb92eda245a0821a49027
+Downloading https://github.com/boostorg/serialization/archive/boost-1.90.0.tar.gz -> boostorg-serialization-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-serialization-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-serialization-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-serialization/src/ost-1.90.0-ff14dd9b7c.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-dbg
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-serialization_arm64-linux/share/boost-serialization/copyright
+-- Performing post-build validation
+Starting submission of boost-serialization:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-serialization:arm64-linux: 7 s
+Completed submission of boost-spirit:arm64-linux@1.90.0#1 to 1 binary cache(s) in 89.8 ms
+Installing 69/70 boost-rational:arm64-linux@1.90.0#1...
+boost-rational:arm64-linux@1.90.0#1 package ABI: e504e0737a97d953e8b27e38ac5a4b493fd3a82600e832f3f9d3e36d849d444a
+Building boost-rational:arm64-linux@1.90.0#1...
+/root/.cache/vcpkg/registries/git-trees/524b14719856f3c2eea524822826b6e5e85150f9: info: installing from git registry git+https://github.com/microsoft/vcpkg@524b14719856f3c2eea524822826b6e5e85150f9
+Downloading https://github.com/boostorg/rational/archive/boost-1.90.0.tar.gz -> boostorg-rational-boost-1.90.0.tar.gz
+Successfully downloaded boostorg-rational-boost-1.90.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/boostorg-rational-boost-1.90.0.tar.gz
+-- Using source at /opt/vcpkg/buildtrees/boost-rational/src/ost-1.90.0-a3385dcf8c.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/boost-rational_arm64-linux/share/boost-rational/copyright
+-- Performing post-build validation
+Starting submission of boost-rational:arm64-linux@1.90.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle boost-rational:arm64-linux: 1.4 s
+Completed submission of boost-serialization:arm64-linux@1.90.0#1 to 1 binary cache(s) in 585 ms
+Installing 70/70 galois:arm64-linux@6.0...
+galois:arm64-linux@6.0 package ABI: 1958ea8934aa2f53ee0c55949096e7c56e77a7a9eb1762b4806200ce02212295
+Building galois:arm64-linux@6.0...
+/code/./vcpkg/custom-overlay/galois: info: installing overlay port from here
+Downloading https://github.com/IntelligentSoftwareSystems/Galois/archive/release-6.0.tar.gz -> IntelligentSoftwareSystems-Galois-release-6.0.tar.gz
+Successfully downloaded IntelligentSoftwareSystems-Galois-release-6.0.tar.gz
+-- Extracting source /opt/vcpkg/downloads/IntelligentSoftwareSystems-Galois-release-6.0.tar.gz
+-- Applying patch add-missing-includes.patch
+-- Applying patch fix-cpuinfo-parsing.patch
+-- Applying patch restrict-targets.patch
+-- Applying patch build-without-llvm.patch
+-- Applying patch skip-tests.patch
+-- Applying patch remove-legacy-vars.patch
+-- Applying patch find-boost-by-config.patch
+-- Applying patch no-need-for-boost-iostreams.patch
+-- Using source at /opt/vcpkg/buildtrees/galois/src/elease-6.0-469f1a25c4.clean
+-- Configuring arm64-linux
+-- Building arm64-linux-dbg
+-- Building arm64-linux-rel
+-- Building arm64-linux-dbg
+-- Building arm64-linux-rel
+-- Installing: /opt/vcpkg/packages/galois_arm64-linux/share/galois/usage
+-- Installing: /opt/vcpkg/packages/galois_arm64-linux/share/galois/copyright
+-- Performing post-build validation
+Starting submission of galois:arm64-linux@6.0 to 1 binary cache(s) in the background
+Elapsed time to handle galois:arm64-linux: 14 s
+Installed contents are licensed to you by owners. Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Packages installed in this vcpkg installation declare the following licenses:
+BSD-3-Clause
+BSL-1.0
+MIT
+bfgroup-lyra provides CMake targets:
+
+    find_package(lyra CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE bfg::lyra)
+
+The package boost-format is compatible with built-in CMake targets of FindBoost.cmake:
+
+    find_package(Boost REQUIRED COMPONENTS format)
+    target_link_libraries(main PRIVATE Boost::format)
+
+or the generated cmake configs via:
+
+    find_package( REQUIRED CONFIG)
+    target_link_libraries(main PRIVATE Boost::format)
+
+The package boost-iterator is compatible with built-in CMake targets of FindBoost.cmake:
+
+    find_package(Boost REQUIRED COMPONENTS iterator)
+    target_link_libraries(main PRIVATE Boost::iterator)
+
+or the generated cmake configs via:
+
+    find_package( REQUIRED CONFIG)
+    target_link_libraries(main PRIVATE Boost::iterator)
+
+The package boost-range is compatible with built-in CMake targets of FindBoost.cmake:
+
+    find_package(Boost REQUIRED COMPONENTS range)
+    target_link_libraries(main PRIVATE Boost::range)
+
+or the generated cmake configs via:
+
+    find_package( REQUIRED CONFIG)
+    target_link_libraries(main PRIVATE Boost::range)
+
+catch2 provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(Catch2 CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE Catch2::Catch2 Catch2::Catch2WithMain)
+
+catch2 provides pkg-config modules:
+
+  # A modern, C++-native test framework for C++14 and above (links in default main)
+  catch2-with-main
+
+  # A modern, C++-native, test framework for C++14 and above
+  catch2
+
+The package fmt provides CMake targets:
+
+    find_package(fmt CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE fmt::fmt)
+
+    # Or use the header-only version
+    find_package(fmt CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE fmt::fmt-header-only)
+
+Galois provides CMake targets:
+
+find_package(Galois CONFIG REQUIRED)
+target_link_libraries(main PRIVATE Galois::shmem)
+
+Completed submission of boost-rational:arm64-linux@1.90.0#1 to 1 binary cache(s) in 3.61 ms
+Waiting for 1 remaining binary cache submissions...
+Completed submission of galois:arm64-linux@6.0 to 1 binary cache(s) in 679 ms (1/1)
+All requested installations completed successfully in: 1.6 min
+-- Running vcpkg install - done
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found Git: /usr/bin/git (found version "2.43.0")
+-- Looking for sgemm_
+-- Looking for sgemm_ - not found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Looking for sgemm_
+-- Looking for sgemm_ - found
+-- Found BLAS: /usr/lib/aarch64-linux-gnu/libblas.so
+-- Looking for cheev_
+-- Looking for cheev_ - not found
+-- Looking for cheev_
+-- Looking for cheev_ - found
+-- Found LAPACK: /usr/lib/aarch64-linux-gnu/liblapack.so;/usr/lib/aarch64-linux-gnu/libblas.so
+-- Found MUMPS: /usr/lib/aarch64-linux-gnu/libdmumps.so
+-- The Fortran compiler identification is GNU 13.3.0
+-- Detecting Fortran compiler ABI info
+-- Detecting Fortran compiler ABI info - done
+-- Check for working Fortran compiler: /usr/bin/gfortran - skipped
+-- Found MPI_CXX: /usr/lib/aarch64-linux-gnu/openmpi/lib/libmpi_cxx.so (found version "3.1")
+-- Found MPI_Fortran: /usr/lib/aarch64-linux-gnu/libmpi_usempif08.so (found version "3.1")
+-- Found MPI: TRUE (found version "3.1") found components: CXX Fortran
+-- Found OpenMP_Fortran: -fopenmp (found version "4.5")
+-- Found OpenMP: TRUE (found version "4.5") found components: Fortran
+-- Configuring done (109.9s)
+-- Generating done (0.1s)
+-- Build files have been written to: /build
